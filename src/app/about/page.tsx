@@ -4,7 +4,13 @@ export default function About() {
   return (
     <section className="flex min-h-screen justify-between p-24">
       <div>
-        <Image src="/images.png" alt="Next.js Logo" width={500} height={700} />
+        <Image
+          src="/images.png"
+          alt="Next.js Logo"
+          width={500}
+          height={700}
+          className="absolute inset-0 w-full h-full object-cover rounded-lg"
+        />
       </div>
       <div>
         <p>About Page</p>
