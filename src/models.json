@@ -1,0 +1,22 @@
+[{
+    "id": 1,
+    "name": "gpt-4-turbo",
+    "description": "Most capable GPT-4 model with optimized speed and cost.",
+    "likes": 1500,
+    "category": "gpt-4"
+},
+{
+    "id": 2,
+    "name": "gpt-4-turb",
+    "description": "Most capable GPT-4 model with optimized speed and cost.",
+    "likes": 1500,
+    "category": "gpt-2"
+},{
+    "id": 3,
+    "name": "gpt-3.5-tur",
+    "description": "Most capable GPT-3.5 model with optimized speed and cost.",
+    "likes": 1200,
+    "category": "gpt-3.5"
+}
+
+]
