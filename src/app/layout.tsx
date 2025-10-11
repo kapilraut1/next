@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Albert_Sans, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "../../components/Navbar";
+import Navbar from "./_components/Navbar";
 
 const geistSans = Albert_Sans({
   variable: "--font-geist-sans",
@@ -28,8 +28,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar />
         {children}
+        <Navbar />
       </body>
     </html>
   );
